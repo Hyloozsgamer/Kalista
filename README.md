@@ -44,11 +44,57 @@
 *   **Visión:** Mandas un espectro que hace un recorrido y vuelve. Grita si ve al jungla enemigo. Revela campeones ocultos en arbustos (True Sight).
 *   **Pacto de Daño (El por qué subes 1 punto a nivel 2 o 3):** Si el Support marcado ataca a un objetivo, Kalista aplica daño Mágico adicional equivalente al **14% - 18% de la Vida Máxima del enemigo** en su siguiente ataque. En fase de líneas esto es una bomba atómica encubierta. Tradea si el support pega.
 
-### 1.4 E (Rend / Desgarrar)
+### 1.4 E (Rend / Desgarrar) - Curvas de DPS & Gráficos de Ejecución
 *   **Mecánica de Farmeo (Mana Refund):** Si (E) mata *al menos 1 unidad*, te devuelve su coste de maná completo y reduce su enfriamiento a 0. Esto permite "farmear gratis" eternamente. Rinde a 2 minions bajos de vida con la misma E.
-*   **Límites de Daño Umbral:**
-    *   **Monstruos Épicos (Barón / Dragón):** El daño es acumulable en escala hasta matar a un dragón o al mismísimo barón en el **Parche 26.7**. Al tener un scaling del 20-30% de tu AD por cada lanza extra. Con 40 lanzas (y la penetración de armor pasiva), puedes prever entre **2400-3000 Puntos de Daño**, lo cual sobreescribe instantáneamente al *Smite / Aplastar* del jungla (que hace un máximo de 1200 a nivel 18). Eres la dueña absoluta del control de objetivos.
-    *   **Auto-Reset:** El casteo de (E) no detiene tus auto-ataques. Puedes lanzar (E) literalmente a mitad de vuelo de un auto-ataque o tu `(Q)` en el aire y reseteará sin frenarte (Double trigger).
+*   **Auto-Reset:** El casteo de (E) no detiene tus auto-ataques. Puedes lanzar (E) literalmente a mitad de vuelo de un auto-ataque o tu `(Q)` en el aire y reseteará sin frenarte (Double trigger).
+
+#### 📊 Gráfico 1: Escalado de Daño Rend (E) vs Armadura del Rival (Lvl 9)
+En la fase media del juego, el número de lanzas necesarias para ejecutar varía drásticamente según la clase de armadura del objetivo. *(Base Matemática: AD Promedio = 150)*.
+
+<div align="center">
+  <code>Leyenda de Ejecución (Puntos de HP Restante vs Stacks para Lethal)</code>
+  <pre>
+[🛡️ SQUISHY - 40 Armor]    (ADC/Mages):  ▀ ▀ ▀ ▀ █ (4 Lanzas = Ejecución a ~450 HP)
+[🛡️ BRUISER - 100 Armor]   (Fighters):   ▀ ▀ ▀ ▀ ▀ ▀ ▀ █ (7 Lanzas = Ejecución a ~550 HP)
+[🛡️ TANK - 200+ Armor]     (Ornn/Sion):  ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ █ (12+ Lanzas = Ejecución a ~700 HP)
+  </pre>
+</div>
+
+#### 📉 Gráfico 2: Cruz de Escalado DPS (BotRK vs Rend E)
+El daño óptimo de Kalista es una **"Estructura en X"**. Al inicio del combate, la Hoja del Rey (BotRK) hace daño masivo porque el rival tiene la vida llena (Damage % Current HP). A medida que la vida del rival baja, el DPS del BotRK cae brutalmente, pero el daño apilado de tus Lanzas de Rend sube exponencialmente.
+
+<div align="center">
+  <table border="1">
+    <tr>
+      <th>Fase del Combate (Vida del Rival)</th>
+      <th>Daño Auto-ataque (BotRK % Actual)</th>
+      <th>Poder Apilado de (Rend E)</th>
+    </tr>
+    <tr>
+      <td><code>[ 100% HP ] 🟩🟩🟩🟩🟩</code></td>
+      <td>█████████ (Máximo)</td>
+      <td>▏ (Cero)</td>
+    </tr>
+    <tr>
+      <td><code>[  75% HP ] 🟨🟨🟨🟨</code></td>
+      <td>██████ (Alto)</td>
+      <td>███ (Despertando)</td>
+    </tr>
+    <tr>
+      <td><code>[  50% HP ] 🟧🟧🟧</code></td>
+      <td>████ (Medio)</td>
+      <td>██████ (Zona Peligro)</td>
+    </tr>
+    <tr>
+      <td><code>[  25% HP ] 🟥</code></td>
+      <td>█ (Irrelevante)</td>
+      <td>█████████ (<b>LETHAL EXECUTION</b>)</td>
+    </tr>
+  </table>
+  <p><i>Conclusión Táctica: Nunca detones la E antes de llegar a la zona naranja/roja. Si lo haces antes, destruirás el cruce de escalado matemático.</i></p>
+</div>
+
+*   **Límites de Daño Épicos (Barón / Dragón):** El daño es acumulable en escala hasta matar a un dragón o al mismísimo barón. Al tener un scaling garantizado de tu AD por cada lanza extra, con 40 lanzas (y la penetración de armor pasiva), puedes prever entre **2400-3000 Puntos de Daño**, lo cual sobreescribe instantáneamente al *Smite / Aplastar* del jungla (que hace un máximo de 1200 a nivel 18). Eres la dueña absoluta del control de objetivos.
 
 ### 1.5 R (Fate's Call / Llamada del Destino)
 *   Atrae al Support a Stasis absoluto (inmune). Ellos teclean click-derecho para lanzarse con un Knock-up AoE.
