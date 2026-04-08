@@ -131,19 +131,30 @@ Kalista rompe los estándares de las builds comunes debido a su necesidad absolu
 *   **Árbol Secundario (Valor):**
     *   *Condicionamiento + Sobrecrecimiento*: Transforma a Kalista en rango de "Bruiser" (Off-Tank) llegada la marca de los 12 minutos.
 
-### 🧬 Interfaces de Micro-Fragmentos (Stats Shards)
-Kalista escala drásticamente distinto dependiendo de qué Micro-Runas le equipes, calculando el umbral de utilidad a Nivel 6.
+### 🧬 INFOGRAFÍA DE MICRO-FRAGMENTOS (SHARDS)
+Kalista escala drásticamente distinto dependiendo de qué Micro-Runas le equipes, cruzando su punto de quiebre algorítmico exactamente a **Nivel 6**.
 
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/perk-images/StatMods/StatModsAttackSpeedIcon.png" width="18"> <b>Slot 1 (Ofensiva)</b> | <kbd>10% Attack Speed</kbd></summary>
-<blockquote><b>Operativa Táctica:</b> Ni lo pienses. El AS = Velocidad de Salto Pasivo Nivel 1. Es el único requerimiento obligatorio de este árbol.</blockquote></details>
-
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/perk-images/StatMods/StatModsAdaptiveForceIcon.png" width="18"> <b>Slot 2 (Flexible)</b> | <kbd>+9 Daño Plano</kbd> vs <kbd>+2% Move Speed</kbd></summary>
-<blockquote><b>Operativa Táctica:</b> AD asegura presión bruta a Nivel 1 para dominar. Velocidad de Movimiento incrementa tu supervivencia pasiva porque mejora las distancias inter-salto vs Skillshots rápidos.</blockquote></details>
-
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/perk-images/StatMods/StatModsHealthPlusIcon.png" width="18"> <b>Slot 3 (Defensa)</b> | <kbd>+65 HP Plano</kbd> vs <kbd>HP Progresiva</kbd></summary>
-<blockquote><b>Punto de Quiebre Matemático:</b> A Nivel 1, los 65 HP absorbén un Ignite temprano entero. A <b>Nivel 6</b>, la Vida Progresiva cruza su umbral (>65 HP) y asciende hasta 180 HP.<br>
-<img src="https://img.shields.io/badge/Matchup-Seguro-green.svg"> Usa <b>Vida Progresiva</b> contra rivales pasivos para tanquear escudos de arco.<br>
-<img src="https://img.shields.io/badge/Matchup-Riesgoso-red.svg"> Usa <b>Vida Plana</b> contra Lucian/Draven o morirás pre-6.</blockquote></details>
+<table width="100%">
+  <tr>
+    <td width="33%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/1042.png" width="50" style="border-radius: 5px;"><br>
+      <b><kbd>10% ATTACK SPEED</kbd></b><br><hr>
+      <p><i>Obligatorio. Define de forma directa la constante de velocidad de tu Salto a Nivel 1.</i></p>
+    </td>
+    <td width="33%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/1036.png" width="50" style="border-radius: 5px;"><br>
+      <b><kbd>+9 DAÑO AD / +MOVE SPEED</kbd></b><br><hr>
+      <p><i>AD asegura presión bruta temprana.<br> Move Speed te aisla contra skillshots rápidos en Mid-Game.</i></p>
+    </td>
+    <td width="33%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/1028.png" width="50" style="border-radius: 5px;"><br>
+      <b><kbd>+65 HP vs HP PROGRESIVA</kbd></b><br><hr>
+      <p><b>Punto de Quiebre (Lvl 6):</b><br>
+      <img src="https://img.shields.io/badge/Matchup-Seguro-green.svg"> Usa HP Progresiva contra Matchups pasivos.<br>
+      <img src="https://img.shields.io/badge/Matchup-Letal-red.svg"> Usa los 65 HP planos contra Lucian/Draven o morirás al 'Ignite' inicial.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -158,29 +169,65 @@ Análisis de volatilidad y capitalización de combate de Kalista según la franj
 
 ---
 
-## 🤝 4. Database de Oathsworn: Top 10 Sinergias
-<p><i>Interfaz de Sistema (Despliega para cargar Protocolo de Sinergia)</i></p>
+## 🤝 4. DATABASE DE OATHSWORN (SUPPORT INFOGRAPHIC)
+<p><i>Interfaz de Sinergia (Elige con cuidado a quién le lanzas la Spear)</i></p>
 
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Renata.png" width="22"> <b>Renata Glasc</b> | <kbd>⭐ S+ (DIOS)</kbd> | <i>Resurrection Engine</i></summary>
-<blockquote><b>Protocolo (R):</b> Renata W te mantiene con vida. Si ella muere, casteas R y la lanzas hacia el enemigo. Ella aplica el Knockup, asegurando la baja y su resurrección automática.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Taric.png" width="22"> <b>Taric</b> | <kbd>⭐ S+</kbd> | <i>Dive Bomb Invencible</i></summary>
-<blockquote><b>Protocolo (R):</b> Taric canaliza R (Inmunidad) en el aire mientras tú le usas la R de escudo de lanzamiento. Un cometa invulnerable aplasta la backline. Rompe el juego 100%.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Nautilus.png" width="22"> <b>Nautilus</b> | <kbd>🟢 S</kbd> | <i>Engage Absolute</i></summary>
-<blockquote><b>Protocolo (R):</b> Perfecto front-laner. Absorbe burst, luego le usas R encima de la cara del enemigo como un CC en cadena infinito e inesquivable.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Leona.png" width="22"> <b>Leona</b> | <kbd>🟢 S</kbd> | <i>Lockdown Sostenido</i></summary>
-<blockquote><b>Protocolo (R):</b> Leona permite un engage seguro que detona el Daño Pactado de tu (W) instantáneamente y de manera repetida en un radio ineludible.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Thresh.png" width="22"> <b>Thresh</b> | <kbd>🟢 S</kbd> | <i>El Rescate Eterno</i></summary>
-<blockquote><b>Protocolo (R):</b> Rescate universal. Tú lo tiras para iniciar, él te tira la Linterna para salir. Movilidad estrambótica de 1000 rango creando un bucle intocable.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Rell.png" width="22"> <b>Rell</b> | <kbd>🟢 S</kbd> | <i>Bomba Magnética</i></summary>
-<blockquote><b>Protocolo (R):</b> La lanzas como un misil, activa su propia R en el centro de tu impacto y desinstala a los 5 personajes rivales juntos. La mejor teamfight del juego.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Blitzcrank.png" width="22"> <b>Blitzcrank</b> | <kbd>🟡 A</kbd> | <i>Kidnapper Loop</i></summary>
-<blockquote><b>Protocolo (R):</b> Tira el Hook (Agarrón), tu le echas R e instantáneamente secuestráis al rival arrastrándolo bajo vuestra propia torre. Riesgoso pero ejecución letal segura.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Alistar.png" width="22"> <b>Alistar</b> | <kbd>🟡 A</kbd> | <i>Peel Inmatable</i></summary>
-<blockquote><b>Protocolo (R):</b> Si él falla su combo, tú arreglas el error recogiéndolo con la (R). Si engancha bien, saltáis juntos. Mezclar ambas ultimates lo hace inmatable a cualquier burst.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Braum.png" width="22"> <b>Braum</b> | <kbd>🟡 A</kbd> | <i>Escudo Deflector</i></summary>
-<blockquote><b>Protocolo (R):</b> Con tu altísima velocidad de salto, multiplicas las cargas de stun pasivas de Braum rápidamente saltando alrededor del equipo rival bloqueando proyectiles.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Karma.png" width="22"> <b>Karma</b> | <kbd>🟠 B</kbd> | <i>Speed Dominance</i></summary>
-<blockquote><b>Protocolo (R):</b> El escudo+velocidad de Karma a Nivel 1 compite con tu Rend maravillosamente. Pero a Late Game no aguanta estar de proyectil y se diluye en utilidad ofensiva.</blockquote></details>
+<table width="100%">
+  <tr>
+    <td width="20%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Renata.png" width="50" style="border-radius: 50%;"><br>
+      <b>Renata</b><br><kbd>⭐ S+</kbd><hr>
+      <p style="font-size: 11px;"><i>Invencibilidad (R)</i></p>
+    </td>
+    <td width="20%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Taric.png" width="50" style="border-radius: 50%;"><br>
+      <b>Taric</b><br><kbd>⭐ S+</kbd><hr>
+      <p style="font-size: 11px;"><i>Bombardeo Dive (R)</i></p>
+    </td>
+    <td width="20%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Nautilus.png" width="50" style="border-radius: 50%;"><br>
+      <b>Nautilus</b><br><kbd>🟢 S</kbd><hr>
+      <p style="font-size: 11px;"><i>Cadena CC Infinita</i></p>
+    </td>
+    <td width="20%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Leona.png" width="50" style="border-radius: 50%;"><br>
+      <b>Leona</b><br><kbd>🟢 S</kbd><hr>
+      <p style="font-size: 11px;"><i>Detonador Mágico Pacto W</i></p>
+    </td>
+    <td width="20%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Thresh.png" width="50" style="border-radius: 50%;"><br>
+      <b>Thresh</b><br><kbd>🟢 S</kbd><hr>
+      <p style="font-size: 11px;"><i>Doble Escape (Lantern R)</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Rell.png" width="50" style="border-radius: 50%;"><br>
+      <b>Rell</b><br><kbd>🟢 S</kbd><hr>
+      <p style="font-size: 11px;"><i>Imán (Ultimate Combo)</i></p>
+    </td>
+    <td width="20%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Blitzcrank.png" width="50" style="border-radius: 50%;"><br>
+      <b>Blitzcrank</b><br><kbd>🟡 A</kbd><hr>
+      <p style="font-size: 11px;"><i>Secuestro a Rango</i></p>
+    </td>
+    <td width="20%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Alistar.png" width="50" style="border-radius: 50%;"><br>
+      <b>Alistar</b><br><kbd>🟡 A</kbd><hr>
+      <p style="font-size: 11px;"><i>Peel Absoluto Inmatable</i></p>
+    </td>
+    <td width="20%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Braum.png" width="50" style="border-radius: 50%;"><br>
+      <b>Braum</b><br><kbd>🟡 A</kbd><hr>
+      <p style="font-size: 11px;"><i>Pared Deflectora Rápida</i></p>
+    </td>
+    <td width="20%" align="center">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Karma.png" width="50" style="border-radius: 50%;"><br>
+      <b>Karma</b><br><kbd>🟠 B</kbd><hr>
+      <p style="font-size: 11px;"><i>Speed Temprano. Decae Late.</i></p>
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -189,51 +236,89 @@ Análisis de volatilidad y capitalización de combate de Kalista según la franj
 ## ⚔️ 5. Mercado de Matchups: Análisis Volátil (15 ADCs)
 <p><i>Terminal Activa: Haz clic para desplegar Trading Specs y Algoritmo de Build.</i></p>
 
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Ashe.png" width="22"> <b>Ashe</b> | <img src="https://img.shields.io/badge/Riesgo-EXTREMO-black.svg"> | Spike: <code>`█▇▆▅▄▃▂ `</code></summary>
-<blockquote><b>Operativa:</b> El slow arruina los <i>frames</i> de tu salto pasivo disminuyendo tu cap DPS un 65%. Debes purificar el <i>Slow</i> siempre o evita la pelea.<br>
-<b>Algoritmo Build:</b> <kbd>Cleanse Obligatorio</kbd> + <kbd>Lethality Burst</kbd> (No prolongues las peleas).</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Draven.png" width="22"> <b>Draven</b> | <img src="https://img.shields.io/badge/Riesgo-ALTO-red.svg"> | Spike: <code>`  ▄▆███▇▅▃ `</code></summary>
-<blockquote><b>Operativa:</b> DPS plano base superior al tuyo si no detonas la E. Predice el aterrizaje de su hacha en el suelo y golpéalo impunemente con la (Q) Pierce. Pide presión.<br>
-<b>Algoritmo Build:</b> <kbd>Botas Tabis (Placas de Acero)</kbd> + <kbd>Terminus</kbd>.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Vayne.png" width="22"> <b>Vayne</b> | <img src="https://img.shields.io/badge/Riesgo-ALTO-red.svg"> | Spike: <code>` ▃▅▆▇████ `</code></summary>
-<blockquote><b>Operativa:</b> Interacción de Late Limit. La destrozas en Early, pero si llega al min 25 te matará en 3 básicos invisibles de daño True. Debes terminar el Macro juego antes.<br>
-<b>Algoritmo Build:</b> <kbd>Terminus (Hyper Resistencias Mágicas/Armor)</kbd>.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Xayah.png" width="22"> <b>Xayah</b> | <img src="https://img.shields.io/badge/Riesgo-ALTO-red.svg"> | Spike: <code>`  ▃▅██▅▃ `</code></summary>
-<blockquote><b>Operativa:</b> Su pasiva llena el campo de plumas. <b>NUNCA</b> des un salto hacia atrás en línea recta. Siempre salta formando un círculo perfecto alrededor suyo (Zoning Dodge).<br>
-<b>Algoritmo Build:</b> <kbd>Shieldbow</kbd> (Absorción de <i>Bladecaller E</i>).</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Caitlyn.png" width="22"> <b>Caitlyn</b> | <img src="https://img.shields.io/badge/Riesgo-MODERADO-orange.svg"> | Spike: <code>`  ██▆▅▄▃▂ `</code></summary>
-<blockquote><b>Operativa:</b> Rango 650 asfixiante que te bloquea maniobras de salto. Abusa del passthrough transfiriendo lanzas E a través de los minions. Ejecuta full All-In nivel 6 con Flash.<br>
-<b>Algoritmo Build:</b> <kbd>Runaan's Hurricane</kbd> (Clear wave instántaneo).</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Lucian.png" width="22"> <b>Lucian</b> | <img src="https://img.shields.io/badge/Riesgo-MODERADO-orange.svg"> | Spike: <code>` ▃▅██▅▃ `</code></summary>
-<blockquote><b>Operativa:</b> Si usa Dashes pasivos defensivos, abusa sus 13s de cooldown iniciales. Modifica tu trayectoria de salto a 45 grados de su Dash para que falle su Luz Lacerante.<br>
-<b>Algoritmo Build:</b> <kbd>Placas de Acero</kbd> (Reducción pasiva a sus dobles auto-ataques).</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Samira.png" width="22"> <b>Samira</b> | <img src="https://img.shields.io/badge/Riesgo-MODERADO-orange.svg"> | Spike: <code>`   ▃▅████ `</code></summary>
-<blockquote><b>Operativa:</b> Un mal click te destruye. Su (W) <i>Blade Whirl</i> borra toda detonación de Rend E que intentes volar en ella. Debes baitarlo. Utiliza (R) como counter a su Ultimate.<br>
-<b>Algoritmo Build:</b> <kbd>Guinsoo</kbd> (Duplicador de acumulaciones masivas rápidas).</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Aphelios.png" width="22"> <b>Aphelios</b> | <img src="https://img.shields.io/badge/Riesgo-MODERADO-orange.svg"> | Spike: <code>`  ▃▅████ `</code></summary>
-<blockquote><b>Operativa:</b> Checkea sus cartuchos pasivos siempre. Tienes unos 30s de ventana donde el arma Severum/Crescendum están agotadas; ese es tu margen analítico de All-In seguro.<br>
-<b>Algoritmo Build:</b> <kbd>Burst Lethality System</kbd>.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Varus.png" width="22"> <b>Varus</b> | <img src="https://img.shields.io/badge/Riesgo-MODERADO-orange.svg"> | Spike: <code>` ▃▄▇██▅▃ `</code></summary>
-<blockquote><b>Operativa:</b> Ambas de sus versiones (AP %HP / Lethalidad) te obligan a esquivar perfect-frame. Evita su flecha R pasiva; si te frena sin pasiva te elimina el 100% HP de una carga C.<br>
-<b>Algoritmo Build:</b> <kbd>Terminus</kbd> + <kbd>Shieldbow</kbd> (Capa mágica).</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Jinx.png" width="22"> <b>Jinx</b> | <img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"> | Spike: <code>` ▂▃▅▆▇██ `</code></summary>
-<blockquote><b>Operativa:</b> Dominancia absoluta Nvl 1 al 9. Congela las líneas forzándola a arriesgarse al farm. Píllala con doble avance salteado y detona un passthrough a los meeles.<br>
-<b>Algoritmo Build:</b> <kbd>Assassin Lethality</kbd> (Ignórala en tank, ciérrala y hazla split-push).</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Kaisa.png" width="22"> <b>Kai'Sa</b> | <img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"> | Spike: <code>` ▂▃▅██▇▄ `</code></summary>
-<blockquote><b>Operativa:</b> Mecísima macro. Pelea siempre **dentro de tu propia oleada** para anular la "Isolation" de su Q de misiles. Sin su Q max damage, tu Rend siempre gana en DPS cruzado.<br>
-<b>Algoritmo Build:</b> <kbd>Guinsoo</kbd> puro core.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Twitch.png" width="22"> <b>Twitch</b> | <img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"> | Spike: <code>` ▂▄▆███ `</code></summary>
-<blockquote><b>Operativa:</b> Precaución de la letalidad invisible de flanqueo. Lleva Exhaust; cuando quite invisibilidad aplicas CC de exhaust y saltándole en la cara mitigas el 50% de daño de su ballesta.<br>
-<b>Algoritmo Build:</b> <kbd>Shieldbow</kbd>.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Jhin.png" width="22"> <b>Jhin</b> | <img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"> | Spike: <code>` ▃▄▆▇▅▃ `</code></summary>
-<blockquote><b>Operativa:</b> Sistema predecible. Su 4to tiro requiere animaciones largas que puedes evadir dadas las velocidades de tus hops. Te sales del rango y entras post-ataque. Facilísimo.<br>
-<b>Algoritmo Build:</b> <kbd>BotRK</kbd> (Robar pasiva MoveSpeed imposibilita su kiting).</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Zeri.png" width="22"> <b>Zeri</b> | <img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"> | Spike: <code>` ▂▃▄▅▇█ `</code></summary>
-<blockquote><b>Operativa:</b> Zeri dispara Skillshots. Tus hops constantes vuelven prácticamente imposible a una Zeri landear impactos limpios ininterrumpidos. Error de Macro al seleccionar a Zeri aquí.<br>
-<b>Algoritmo Build:</b> <kbd>On-Hit Placas Armor</kbd>.</blockquote></details>
-<details><summary><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Ezreal.png" width="22"> <b>Ezreal</b> | <img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"> | Spike: <code>` ▃▅▆██▅ `</code></summary>
-<blockquote><b>Operativa:</b> Escudado de Minions bloquea casi todo daño real. Sus hops laterales le hacen fallar (Q) todo el combate. Su E defensiva apenas evita que tus lanzas adheridas sigan restando su vida.<br>
-<b>Algoritmo Build:</b> <kbd>BotRK + Berserker Rush</kbd>.</blockquote></details>
+<table width="100%">
+  <tr>
+    <td width="20%" align="center" style="background:#1a0f0f;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Ashe.png" width="50" style="border-radius: 50%;"><br>
+      <b>Ashe</b><br><img src="https://img.shields.io/badge/Riesgo-EXTREMO-black.svg"><hr>
+      <p style="font-size: 11px;"><i>Slow arruina Salto</i><br><kbd>Cleanse</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#2d1313;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Draven.png" width="50" style="border-radius: 50%;"><br>
+      <b>Draven</b><br><img src="https://img.shields.io/badge/Riesgo-ALTO-red.svg"><hr>
+      <p style="font-size: 11px;"><i>Supera tu DPS base</i><br><kbd>Tabis</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#2d1313;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Vayne.png" width="50" style="border-radius: 50%;"><br>
+      <b>Vayne</b><br><img src="https://img.shields.io/badge/Riesgo-ALTO-red.svg"><hr>
+      <p style="font-size: 11px;"><i>Limit-Test en Late</i><br><kbd>Terminus</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#2d1313;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Xayah.png" width="50" style="border-radius: 50%;"><br>
+      <b>Xayah</b><br><img src="https://img.shields.io/badge/Riesgo-ALTO-red.svg"><hr>
+      <p style="font-size: 11px;"><i>Peligro de Plumas</i><br><kbd>Shieldbow</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#26180b;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Caitlyn.png" width="50" style="border-radius: 50%;"><br>
+      <b>Caitlyn</b><br><img src="https://img.shields.io/badge/Riesgo-MEDIO-orange.svg"><hr>
+      <p style="font-size: 11px;"><i>Abusa del Rango 650</i><br><kbd>Runaan's</kbd></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="center" style="background:#26180b;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Lucian.png" width="50" style="border-radius: 50%;"><br>
+      <b>Lucian</b><br><img src="https://img.shields.io/badge/Riesgo-MEDIO-orange.svg"><hr>
+      <p style="font-size: 11px;"><i>Dash Ofensivo Cds</i><br><kbd>Tabis</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#26180b;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Samira.png" width="50" style="border-radius: 50%;"><br>
+      <b>Samira</b><br><img src="https://img.shields.io/badge/Riesgo-MEDIO-orange.svg"><hr>
+      <p style="font-size: 11px;"><i>Su W borra tu E</i><br><kbd>Guinsoo</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#26180b;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Aphelios.png" width="50" style="border-radius: 50%;"><br>
+      <b>Aphelios</b><br><img src="https://img.shields.io/badge/Riesgo-MEDIO-orange.svg"><hr>
+      <p style="font-size: 11px;"><i>Vigilar armas rojas/blancas</i><br><kbd>Lethality</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#26180b;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Varus.png" width="50" style="border-radius: 50%;"><br>
+      <b>Varus</b><br><img src="https://img.shields.io/badge/Riesgo-MEDIO-orange.svg"><hr>
+      <p style="font-size: 11px;"><i>Blockear R obligatorio</i><br><kbd>Shieldbow</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#132616;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Jinx.png" width="50" style="border-radius: 50%;"><br>
+      <b>Jinx</b><br><img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"><hr>
+      <p style="font-size: 11px;"><i>Early dominado facil</i><br><kbd>Assassin</kbd></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="center" style="background:#132616;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Kaisa.png" width="50" style="border-radius: 50%;"><br>
+      <b>Kai'Sa</b><br><img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"><hr>
+      <p style="font-size: 11px;"><i>Pelear entre minions</i><br><kbd>Guinsoo</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#132616;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Twitch.png" width="50" style="border-radius: 50%;"><br>
+      <b>Twitch</b><br><img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"><hr>
+      <p style="font-size: 11px;"><i>Exhaust en aparición</i><br><kbd>Shieldbow</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#132616;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Jhin.png" width="50" style="border-radius: 50%;"><br>
+      <b>Jhin</b><br><img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"><hr>
+      <p style="font-size: 11px;"><i>4to tiro evadible pasivamente</i><br><kbd>BotRK</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#132616;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Zeri.png" width="50" style="border-radius: 50%;"><br>
+      <b>Zeri</b><br><img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"><hr>
+      <p style="font-size: 11px;"><i>Esquivas Q solas saltando</i><br><kbd>Tabis</kbd></p>
+    </td>
+    <td width="20%" align="center" style="background:#132616;">
+      <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Ezreal.png" width="50" style="border-radius: 50%;"><br>
+      <b>Ezreal</b><br><img src="https://img.shields.io/badge/Riesgo-BAJO-green.svg"><hr>
+      <p style="font-size: 11px;"><i>Bloquea Q con creeps</i><br><kbd>BotRK+Berserk</kbd></p>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   <br>
