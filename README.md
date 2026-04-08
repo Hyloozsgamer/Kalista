@@ -120,16 +120,25 @@ Kalista rompe los estándares de las builds comunes debido a su necesidad absolu
 
 ---
 
-## 🔮 3. Runas Optimizadas (Parche 26.7)
+## 🔮 3. Análisis de Runas & Micro-Shards (Parche 26.7)
 
-*   **Principal:** Precisión 
-    *   **Lethal Tempo**: Vital para la agresividad de nivel 1 y la escalada On-Hit a Mid Game. (Alternativa: Press the Attack si quieres hiper-explotar objetivos en línea con el combo Q+E).
-    *   **Triunfo**: Indispensable dada tu naturaleza cortadistancias; a veces te curará esa vida que te salva del Ignite.
-    *   **Leyenda: Alacrity/Velocidad**: Sinergia base de DPS puro. (Sustituir por Bloodline solo si vas The Collector, pero AS% puro es mejor por su pasiva).
-    *   **Coup de Grace (Golpe de Gracia)** // **Cut Down**: `Cut Down` siempre si el support rival o jungla tienen +3000 de HP. Modifica las matemáticas del (E).
-*   **Secundaria:** Valor (Resolve)
-    *   **Bone Plating (Revestimiento de Huesos)** o **Conditioning (Condicionamiento)**: Bone Plating en fase de líneas duras asegurará ganar el 2v2 o 1v1. Condicionamiento te vuelve un TANK hibridado en Lete Game.
-    *   **Overgrowth (Sobrecrecimiento)**: Más vida máxima hace que el Shieldbow no pete rápido.
+### Árbol Principal (Keystones)
+*   **Lethal Tempo**: Mandatorio el 90% de partidas. Te permite cruzar el límite de 2.0 AS, pero **recuerda la regla de oro**: Si superas 2.0 AS, deja de saltar o perderás DPS.
+*   **Press the Attack (PTA)**: Usar solo si el draft rival tiene 4+ Squishies (Asesinos/Magos). PTA + Q + E es una ejecución semi-instantánea.
+*   **Secundarias (Obligatorias):**
+    *   *Triunfo*: Crucial en Kalista porque al tener rango bajo (525), vivirás en la zona de fuego cruzado.
+    *   *Coup de Grace* vs *Cut Down*: Activa `Cut Down` siempre si hay más de 1 tanque (>3000 HP). Se multiplica exponencialmente con el Rendeo (E) en tanques.
+*   **Árbol Secundario (Valor):**
+    *   *Condicionamiento + Sobrecrecimiento*: Transforma a Kalista en rango de "Bruiser" (Off-Tank) llegada la marca de los 12 minutos.
+
+### 🧬 Matrices de Micro-Fragmentos (Stats Shards)
+Kalista escala drásticamente distinto dependiendo de qué Micro-Runas le equipes, calculando el umbral de utilidad a Nivel 6.
+
+| Slot | Opción A (Early Game Aggro) | Opción B (Mid/Late Game Scaling) | Justificación Matemática |
+| :--- | :--- | :--- | :--- |
+| **Frag 1 (Ofensa)** | **10% Attack Speed** | Ni lo pienses. | El AS = Velocidad de Salto Pasivo Nvl 1. Obligatorio. |
+| **Frag 2 (Flex)** | **+9 Daño de Ataque (Plano)** | **+2% Velocidad de Movimiento** | AD asegura presión bruta a Nivel 1. Vel. de Movimiento mejora tus reposicionamientos laterales vs Skillshots. |
+| **Frag 3 (Vida / Def)** | **+65 Vida Plana (Flat HP)** | **+10 a +180 Vida Progresiva** | **El Punto de Quiebre Matemático:** A Nivel 1, los 65 HP planos absorben el daño de un *Ignite* temprano. Sin embargo, a partir de **Nivel 6**, la Vida Progresiva cruza el umbral (>65 HP) y crece masivamente hasta 180 HP a nivel 18.<br><br>**Táctica:** Matchup de Riesgo Extremo/Alto (Ej. Draven, Lucian) = **Vida Plana**. Matchup Seguro (Ej. Ezreal, Zeri) = **Vida Progresiva** para ser intocable con Shieldbow en Mid-Game. |
 
 ---
 
