@@ -1,0 +1,34 @@
+build_paths:
+  Tank_Shredder_OnHit:
+    description: "Optimal against 2+ HP stackers. Relies on maximum E stacks instead of auto-attack burst. Adjusted for Patch 26.7 On-Hit ratios."
+    core_spike:
+      - "Berserker's Greaves"
+      - "Blade of the Ruined King"
+      - "Guinsoo's Rageblade"
+    situational:
+      - "Terminus"
+      - "Runaan's Hurricane (Patch 26.7 interactions apply to E stacks)"
+
+  Assassin_Lethality_Burst:
+    description: "Optimal against squishy teams. Kills with Q + E (Rend) rather than prolonged hopping."
+    core_spike:
+      - "Berserker's Greaves"
+      - "Hubris"
+      - "The Collector"
+    situational:
+      - "Opportunity"
+      - "Edge of Night"
+
+  Hyper_Survival_Duelist:
+    description: "When threatened by heavy dive. Mixes lifesteal and raw bruiser stats (Patch 26.7 defensive buff focus)."
+    core_spike:
+      - "Berserker's Greaves"
+      - "Blade of the Ruined King"
+      - "Immortal Shieldbow"
+    situational:
+      - "Bloodthirster"
+      - "Guardian Angel"
+
+tactical_rules:
+  boot_rush: "Kalista MUST purchase Boots tier 1 on the first recall. Her jump range scales explicitly from Boots tier, not her level or AD."
+  rend_cap: "Epic Monsters allow infinite stacking. Maximize Rend over 40+ stacks to out-smite any jungler safely at 2500+ threshold."

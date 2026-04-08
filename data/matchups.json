@@ -1,0 +1,45 @@
+{
+  "patch_version": "26.7",
+  "matchups": [
+    {
+      "champion": "Draven",
+      "tier": "Lethal",
+      "risk": "Highest",
+      "oathsworn_synergy": ["Nautilus", "Leona"],
+      "win_rate": 45.2,
+      "micro_strategy": "Survive his raw AD. Do not trade auto-for-auto. Wait for your Support to connect CC, then all-in with E.",
+      "recommended_build": "Hyper_Survival_Duelist",
+      "rend_threshold_early": "6+ Spears to execute"
+    },
+    {
+      "champion": "Lucian",
+      "tier": "High",
+      "risk": "High",
+      "oathsworn_synergy": ["Thresh", "Pyke"],
+      "win_rate": 48.0,
+      "micro_strategy": "He bursts faster. You must out-sustain and hop to side-step his piercing light (Q).",
+      "recommended_build": "Hyper_Survival_Duelist",
+      "rend_threshold_early": "5 Spears to execute"
+    },
+    {
+      "champion": "Ezreal",
+      "tier": "Low",
+      "risk": "Low",
+      "oathsworn_synergy": ["Renata", "Rell"],
+      "win_rate": 53.5,
+      "micro_strategy": "Block Q with minions. Your sustained damage and mobility absolutely ruins his skillshot accuracy.",
+      "recommended_build": "Tank_Shredder_OnHit",
+      "rend_threshold_early": "4 Spears to execute"
+    },
+    {
+      "champion": "Ashe",
+      "tier": "Medium",
+      "risk": "Medium",
+      "oathsworn_synergy": ["Nautilus", "Amumu"],
+      "win_rate": 49.5,
+      "micro_strategy": "Her slow breaks your jump animation entirely. You must engage proactively or take Cleanse to remove the debuff.",
+      "recommended_build": "Assassin_Lethality_Burst",
+      "rend_threshold_early": "4 Spears to execute"
+    }
+  ]
+}
