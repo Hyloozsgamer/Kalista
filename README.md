@@ -133,32 +133,57 @@ Kalista rompe los estándares de las builds comunes debido a su necesidad absolu
 
 ---
 
-## 🤝 4. Matriz de Oathsworn (Supports) Expandida
+### 📈 Curvas de Rendimiento (Trading Power Spikes)
+Análisis de volatilidad y capitalización de combate de Kalista según la franja temporal. Las "Velas" representan la eficacia porcentual esperada de su kit contra hiper-carries de Late Game (eg. Jinx/Vayne).
 
-La conexión del *Black Spear* dictamina tu destino de línea de draft de Master Analyst. No uses a Kalista con Healers Pasivos.  
-
-| Support Oathsworn | Categoría | Macro Game Synergy | Por Qué Funciona (Interacciones de Marco R) |
-| :--- | :---: | :--- | :--- |
-| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Renata.png" width="25"> **Renata Glasc** | ⭐ **S+** (DIOS) | *Resurrection Engine* | Renata W te mantiene con vida. Si ella muere, casteas R y la lanzas hacia el enemigo. Ella aplica el Knockup, asegurándote de revivir. Su control macro salva tu DPS. |
-| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Taric.png" width="25"> **Taric** | ⭐ **S+** | *Dive Bomb Invencible* | Taric canaliza R (Inmunidad) en el aire mientras tú le usas la R de escudo de lanzamiento. Un cometa invulnerable aplasta la backline. Rompe el juego 100%. |
-| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Nautilus.png" width="25"> **Nautilus** / <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Leona.png" width="25"> **Leona** | 🟢 **S** | *Engage Total* | Perfectos front-laners. Lo tiras todo a Nivel 6. Si el jungla va a gankearte, absorbes las herramientas y luego R encima de los gankeadores como counter. |
-| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Thresh.png" width="25"> **Thresh** | 🟢 **S** | *Seguridad Doble* | Rescate universal. Tú lo tiras para entrar o salir, él te tira linterna. Movilidad estrambótica de 1000 de rango constante. |
-| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Karma.png" width="25"> **Karma** | 🟡 **A** | *Poke + Sprint Dominance* | El escudo+velocidad de Karma a Nivel 1 se comba brutalmente con tu daño agresivo de Rend. Pueden aplastar cualquier escudo en early. |
-| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Soraka.png" width="25"> / <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Yuumi.png" width="25"> | 🔴 **F** | *DO NOT PICK* | Cero sinergia en equipo. Usar la (R) es suicidar al Healer sin armadura. Si logras pactar una partida Master+ así, prepárate para sufrir. |
+| Plazo Temporal (Macro) | Tendencia Base del Mercado | Volatilidad (Requisito E) | Curva de Impacto (Candlestick Spike) |
+| :---: | :---: | :---: | :--- |
+| **Early Game (0 - 15m)** | 🐂 BULL (Alza Fuerte) | 🔴 Extrema (Requiere Dominio) | `  ▄▆███▇▅▃ ` *(Snowball obligatorio. BotRK Rush)* |
+| **Mid Game (15 - 25m)** | ⚖️ STABLE (Meseta) | 🟡 Media (Objectivos) | ` ▃▅▆▇██▆▄ ` *(Pico de eficiencia con Barones a 40 stacks E)* |
+| **Late Game (25m+)** | 🐻 BEAR (Caída Constante) | 🟢 Baja (Caída de AS y Armor) | `       ▂▄ ` *(Dependes 100% de iniciación con tu Support y R)* |
 
 ---
 
-## ⚔️ 5. Matriz de Matchups & Fase de Líneas (Macro Wiki)
+## 🤝 4. Matriz de Oathsworn (Supports) Expandida (Top 10)
 
-*El draft es tu amigo o tu fin estadísticamente probado.*
+La conexión del *Black Spear* dictamina tu destino de línea de draft. Cero heurísticas pasivas.
 
-| ADC Rivales | Riesgo | Mecánica Oculta del Por Qué | Playstyle en Fase de Líneas y Teamfight | Modificaciones Estratégicas y Build |
+| Support Oathsworn | Categoría | Macro Game Synergy | Detalle de Interacciones de Marco R |
+| :--- | :---: | :--- | :--- |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Renata.png" width="25"> **Renata Glasc** | ⭐ **S+** | *Resurrection Engine* | Renata W te mantiene con vida. Si ella muere, casteas R y aplicas Knockup para asegurar la baja y resucitar. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Taric.png" width="25"> **Taric** | ⭐ **S+** | *Dive Bomb Invencible* | Taric canaliza R en estasis de salto. Un cometa invulnerable aplasta la backline. Rompe el juego 100%. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Nautilus.png" width="25"> **Nautilus** | 🟢 **S** | *Engage Total (Puntual)* | El mejor front-line absoluto. Absorbe burst, luego le usas R encima de sus caras como un CC en cadena infinito. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Leona.png" width="25"> **Leona** | 🟢 **S** | *Lockdown Sostenido* | Leona permite un engage seguro que detona el Daño Pactado de tu W instántaneamente de manera repetida. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Thresh.png" width="25"> **Thresh** | 🟢 **S** | *Seguridad Doble* | Rescate universal. Tú lo tiras para iniciar, él te tira la Linterna. Movilidad estrambótica de 1000 rango. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Rell.png" width="25"> **Rell** | 🟢 **S** | *Bomba Magnética* | La lanzas como un misil, activa su propia R en el centro y desinstala a los 5 personajes rivales juntos. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Blitzcrank.png" width="25"> **Blitzcrank** | 🟡 **A** | *Kidnapper Loop* | Tira el Hook (Agarrón), tu le echas R e instantáneamente secuestráis al rival bajo vuestra propia torre. Riesgoso pero Letal. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Alistar.png" width="25"> **Alistar** | 🟡 **A** | *Peel de Bloques* | Su combo requiere timing, pero si fallan su engage tú arreglas el error recogiéndolo. Inmatable al mezclar las RS. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Braum.png" width="25"> **Braum** | 🟡 **A** | *Protección Pasiva* | Con tu pasiva de saltos multiplicas las cargas de stun del escudo de Braum rápidamente saltando alrededor. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Karma.png" width="25"> **Karma** | 🟠 **B** | *Poke Dominance* | Escudo/Speed Lv1 compite con tu Rend, pero a Late Game no aguanta estar de proyectil y morirá. |
+
+---
+
+## ⚔️ 5. Matriz de Matchups Ampliada (15 ADCs)
+
+*El mercado de bot lane es puro trading de golpes. Elige tu stock sabiamente basándote en los power spikes (Early Bull / Late Bear).*
+
+| ADC Rivales | Riesgo | Volatilidad / Curva de Matchup | Estratégia de Líneas & Teamfight | Modifications Build |
 | :--- | :---: | :--- | :--- | :--- |
-| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Ashe.png" width="25"> **Ashe** | 💀💀 EXTREMO | Ashe ataca aplicando una congelación progresiva (Passive: Frost Shot). El slow de movimiento afecta drásticamente tus frames de Salto Pasivo, bajando tu DPS puro casi a la mitad porque te quedas "enganchada" en el aire. | **Fase de Líneas:** Obligatorio purificar *Cleanse* el Slow principal o su flecha. **Teamfight:** Solo engánchate a ella con (R) a melee y rindeala rapido antes que te congele. | Build: **Lethality o Cleanse (Mercurial Scimitar)**. No dures en combate, haz burst. |
-| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Draven.png" width="25"> **Draven** | 🔴 ALTO | Sus hachas hacen un DPS plano a Lv1-3 muy superior a tus auto-ataques normales sin detonación E. | **Fase de Líneas:** Deja que pushee. Salta perpendicular a los hachazos y predice el punto de sus aterrizajes de hacha para castigar con (Q) Pierce. | Build: **Placas de Acero / Terminus**. Juega On-Hit a escalado si lograste esquivarlo. |
-| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Caitlyn.png" width="25"> **Caitlyn** | 🔴 ALTO | Kalista (525 Rango). Caitlyn (650 Rango). Un asedio brutal desde las sombras y trampas que bloquean tu libertad transversal de salto en la calle principal. | **Fase de Líneas:** Utiliza al máximo el passthrough y farm con Q/E para limpiar oleadas rápidas, forzándola a gastar maná en torre. Llora por tu support (Engage) para destruirla en 1.5s mediante la Ultimate. | Build: Runaan’s Hurricane. La wave clear agresiva es clave para evadir su asedio constante bajo torre. |
-| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Lucian.png" width="25"> **Lucian** | 🟡 MEDIO | Si salta contigo, la lluvia de la Luz es letal al no poder cortar daño puro. | Evalúa constantemente cuándo usa el Dash (E). Cuando usa el dash agresivo forward, tú castigas moviéndote a un ángulo donde su (Q) fallará. Sus cds tempraneros duran mucho, en esos 13 segundos tú le revientas la vida. | Build: Vete Armor Placed o Edge of Night, dependiendo el burst que traiga. |
-| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Ezreal.png" width="25"> **Ezreal** | 🟢 BAJO | Ezreal depende al 100% en landear skills directas `(Q) y (W)`. Tu diseño te permite saltar locamente (Kite Side) haciendo sus habilidades imposibles de predecir. | **Esquive Continuo:** Puedes esconder el engage completo tras la capa de minions. Su "Desplazamiento Arcano" no anula de manera absoluta tus Lanzas (Rend). Si salta con tus lanzas pegadas, igual es desvanecido por tu (E). | Build: BotRK puro + Guinsoo. Se le hace polvo cuando pilles su E en cooldown. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Ashe.png" width="25"> **Ashe** | 💀💀 EXTREMO | 🔴 `█▇▆▅▄▃▂ ` (Caes en Picado) | El slow arruina los *frames* de salto pasivo. Debes purificar el *Slow*. Solo inicia a melee con R. | **Cleanse / Lethality Burst**. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Draven.png" width="25"> **Draven** | 🔴 ALTO | 🔴 `  ▄▆███▇▅▃ ` | DPS plano superior al tuyo sin E. Predice el aterrizaje de su hacha y pégale (Q). Pide Ganks. | **Botas Tabis / Armor**. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Vayne.png" width="25"> **Vayne** | 🔴 ALTO | 🟡 ` ▃▅▆▇████ ` (Te supera Late) | La destrozas en Early, pero si llega al min 25 te matará en 3 básicos invisibles. Trata de ganar antes. | **Terminus (Stats híbridos)** |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Xayah.png" width="25"> **Xayah** | 🔴 ALTO | 🟡 `  ▃▅██▅▃ ` | Su pasiva llena el piso de plumas. NUNCA saltes hacia atrás en línea recta. Siempre salta lateral (Side-hopping). | **Shieldbow (Protección Burst)** |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Caitlyn.png" width="25"> **Caitlyn** | 🟡 MEDIO | 🔴 `  ██▆▅▄▃▂ ` | Su rango (650) bloquea libertad de salto. Abusa del passthrough a minions con Q. Full All-in al Nivel 6. | **Runaan's Hurricane** para oleadas. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Lucian.png" width="25"> **Lucian** | 🟡 MEDIO | 🟡 ` ▃▅██▅▃ ` | Observa su E (Dash agresivo). Mueve tu salto en ángulo de 45° a su (Q). Aprovéchate de sus CDs largos en early. | **Placas Acero**. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Samira.png" width="25"> **Samira** | 🟡 MEDIO | 🟡 `   ▃▅████ ` | Su W *Blade Whirl* borra tu E. Literalmente guárdala o perderás. Cuando usa *Inferno Trigger*, Tírale soporte. | **Guinsoo (Stack rápido de Lanzas)** |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Aphelios.png" width="25"> **Aphelios** | 🟡 MEDIO | 🟡 `  ▃▅████ ` | Tienes 30s de ventana cuando no tiene Severum/Crescendum (Armas rojas/blancas) para asediarle. | **Burst Lethality**. |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Varus.png" width="25"> **Varus** | 🟡 MEDIO | 🟡 ` ▃▄▇██▅▃ ` | Versión AP o Letalidad te hacen checkmate. Evita su flecha R o estás muerta en 0.5s sin pasiva de salto. | **Terminus (Resistencia Mágica)** |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Jinx.png" width="25"> **Jinx** | 🟢 BAJO | 🟢 ` ▂▃▅▆▇██ `(Escala fuerte) | Eres superior niveles 1 al 9. Congela oleada, la matas al mínimo avance mal posicionado que dé. | **Assassin Burst** (Elimínala rápido). |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Kaisa.png" width="25"> **Kai'Sa** | 🟢 BAJO | 🟡 ` ▂▃▅██▇▄ ` | Métete dentro de las olas de minions para que su lluvia de misiles Q no aplique isolación. Rindeas a la mínima. | **Guinsoo** |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Twitch.png" width="25"> **Twitch** | 🟢 BAJO | 🟡 ` ▂▄▆███ ` | Flanquea desde invisible. Si apretas 'Exhaust' rápido cuando aparezca, le robas todo su DPS, salta en su cara. | **Shieldbow / Escudos** |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Jhin.png" width="25"> **Jhin** | 🟢 BAJO | 🟢 ` ▃▄▆▇▅▃ ` | Su cuarto tiro es previsible y sus animaciones lentas. Saltas fuera del rango del cuarto tiro y vuelves a entrar. Checkmate. | **BotRk (Movement Steal)** |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Zeri.png" width="25"> **Zeri** | 🟢 BAJO | 🟢 ` ▂▃▄▅▇█ ` | Es una skillshot pura. Tu pasiva de estar saltando ininterrumpidamente hace que Zeri falle 50% de sus balas. | **On-Hit Armor** |
+| <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Ezreal.png" width="25"> **Ezreal** | 🟢 BAJO | 🟢 ` ▃▅▆██▅ ` | Mismo caso. Bloquea sus (Q) con minions. Tu salto anula su precisión en fase de teamfights extendidas. | **BotRK + Berserker Rush** |
 
 <div align="center">
   <br>

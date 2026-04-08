@@ -7,9 +7,8 @@
       "risk": "Highest",
       "oathsworn_synergy": ["Nautilus", "Leona"],
       "win_rate": 45.2,
-      "micro_strategy": "Survive his raw AD. Do not trade auto-for-auto. Wait for your Support to connect CC, then all-in with E.",
-      "recommended_build": "Hyper_Survival_Duelist",
-      "rend_threshold_early": "6+ Spears to execute"
+      "micro_strategy": "Survive his raw AD. Wait for Support CC.",
+      "recommended_build": "Hyper_Survival_Duelist"
     },
     {
       "champion": "Lucian",
@@ -17,9 +16,8 @@
       "risk": "High",
       "oathsworn_synergy": ["Thresh", "Pyke"],
       "win_rate": 48.0,
-      "micro_strategy": "He bursts faster. You must out-sustain and hop to side-step his piercing light (Q).",
-      "recommended_build": "Hyper_Survival_Duelist",
-      "rend_threshold_early": "5 Spears to execute"
+      "micro_strategy": "Out-sustain and hop sidestep his Q.",
+      "recommended_build": "Hyper_Survival_Duelist"
     },
     {
       "champion": "Ezreal",
@@ -27,19 +25,116 @@
       "risk": "Low",
       "oathsworn_synergy": ["Renata", "Rell"],
       "win_rate": 53.5,
-      "micro_strategy": "Block Q with minions. Your sustained damage and mobility absolutely ruins his skillshot accuracy.",
-      "recommended_build": "Tank_Shredder_OnHit",
-      "rend_threshold_early": "4 Spears to execute"
+      "micro_strategy": "Block Q with minions. Hop making skillshots impossible.",
+      "recommended_build": "Tank_Shredder_OnHit"
     },
     {
       "champion": "Ashe",
+      "tier": "Lethal",
+      "risk": "Highest",
+      "oathsworn_synergy": ["Nautilus"],
+      "win_rate": 44.5,
+      "micro_strategy": "Slow breaks jump. Cleanse required.",
+      "recommended_build": "Assassin_Lethality_Burst"
+    },
+    {
+      "champion": "Caitlyn",
+      "tier": "Medium",
+      "risk": "High",
+      "oathsworn_synergy": ["Nautilus", "Leona"],
+      "win_rate": 47.1,
+      "micro_strategy": "Avoid traps. Clear fast to avoid tower siege.",
+      "recommended_build": "Tank_Shredder_OnHit"
+    },
+    {
+      "champion": "Jinx",
       "tier": "Medium",
       "risk": "Medium",
-      "oathsworn_synergy": ["Nautilus", "Amumu"],
-      "win_rate": 49.5,
-      "micro_strategy": "Her slow breaks your jump animation entirely. You must engage proactively or take Cleanse to remove the debuff.",
-      "recommended_build": "Assassin_Lethality_Burst",
-      "rend_threshold_early": "4 Spears to execute"
+      "oathsworn_synergy": ["Thresh", "Blitzcrank"],
+      "win_rate": 49.3,
+      "micro_strategy": "Abuse early game. Dodge rockets. She outscales late.",
+      "recommended_build": "Assassin_Lethality_Burst"
+    },
+    {
+      "champion": "Vayne",
+      "tier": "High",
+      "risk": "High",
+      "oathsworn_synergy": ["Lulu", "Renata"],
+      "win_rate": 48.8,
+      "micro_strategy": "You win early, she wins 1v1 late. Exhaust her.",
+      "recommended_build": "Hyper_Survival_Duelist"
+    },
+    {
+      "champion": "Jhin",
+      "tier": "Low",
+      "risk": "Low",
+      "oathsworn_synergy": ["Rell", "Nautilus"],
+      "win_rate": 52.1,
+      "micro_strategy": "Punish his reload. Your hops easily dodge his W and R.",
+      "recommended_build": "Tank_Shredder_OnHit"
+    },
+    {
+      "champion": "Kai'Sa",
+      "tier": "Medium",
+      "risk": "Medium",
+      "oathsworn_synergy": ["Thresh", "Renata"],
+      "win_rate": 50.5,
+      "micro_strategy": "Block Q missiles with minions. E execution wins 1v1.",
+      "recommended_build": "Assassin_Lethality_Burst"
+    },
+    {
+      "champion": "Samira",
+      "tier": "High",
+      "risk": "High",
+      "oathsworn_synergy": ["Alistar", "Leona"],
+      "win_rate": 48.4,
+      "micro_strategy": "Never Rend inside her W. R your support when she ults.",
+      "recommended_build": "Tank_Shredder_OnHit"
+    },
+    {
+      "champion": "Zeri",
+      "tier": "Low",
+      "risk": "Low",
+      "oathsworn_synergy": ["Nautilus"],
+      "win_rate": 53.0,
+      "micro_strategy": "Out-range her piercing autos. Better scaling early game.",
+      "recommended_build": "Tank_Shredder_OnHit"
+    },
+    {
+      "champion": "Varus",
+      "tier": "Medium",
+      "risk": "High",
+      "oathsworn_synergy": ["Braum", "Thresh"],
+      "win_rate": 49.0,
+      "micro_strategy": "Lethality Varus ruins you. Dodge Qs, all-in at 6.",
+      "recommended_build": "Hyper_Survival_Duelist"
+    },
+    {
+      "champion": "Xayah",
+      "tier": "High",
+      "risk": "Medium",
+      "oathsworn_synergy": ["Rell", "Renata"],
+      "win_rate": 48.7,
+      "micro_strategy": "Hop sideways to avoid her feather recall (E).",
+      "recommended_build": "Tank_Shredder_OnHit"
+    },
+    {
+      "champion": "Twitch",
+      "tier": "Medium",
+      "risk": "Low",
+      "oathsworn_synergy": ["Nautilus", "Leona"],
+      "win_rate": 51.2,
+      "micro_strategy": "Ward flanks. If he opens R, exhaust and jump into him.",
+      "recommended_build": "Assassin_Lethality_Burst"
+    },
+    {
+      "champion": "Aphelios",
+      "tier": "High",
+      "risk": "Medium",
+      "oathsworn_synergy": ["Thresh", "Blitzcrank"],
+      "win_rate": 49.8,
+      "micro_strategy": "Watch his weapons. Respect Crescendum. Engage on Calibrum.",
+      "recommended_build": "Tank_Shredder_OnHit"
     }
   ]
 }
