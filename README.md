@@ -31,8 +31,8 @@
 *   **Parche 26.7 Importante:** Históricamente sus auto-ataques infligían un 90% de su AD. En parches modernos, **inflige 100% de su Daño de Ataque Total**, permitiéndole construir AD puro sin penalización y maximizar *Lifesteal*.
 *   **Por qué el "Attack Speed" es una trampa mortal a Late Game:**
     La distancia de salto de Kalista **NO** escala con velocidad de movimiento regular fuera de las botas.
-    *   `<img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/1001.png" width="20"> Botas Tier 1 (25% extra distance)`
-    *   `<img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/3006.png" width="20"> Botas Tier 2 (Berserker / Steelcaps) = Máximo Salto Posible.`
+    *   <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/1001.png" width="20"> Botas Tier 1 (25% extra distance)
+    *   <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/3006.png" width="20"> Botas Tier 2 (Berserker / Steelcaps) = Máximo Salto Posible.
     *   **"El Cap de AS" (Attack Speed):** Al sobrepasar **1.80 a 2.0 de AS**, la animación de su salto *empieza a ser más lenta que su capacidad de atacar parada*. **Regla de Master+**: Si tienes mucho AS (por ejemplo con Lethal Tempo activo o Guinsoo cargado) y necesitas maximizar DPS puro al Barón o Tumbando Torre, **DEJA DE SALTAR** (A-Click estático en el sitio sin moverse). Saltar literalmente reducirá tu DPS un 20%.
 
 ### 1.2 Q (Pierce / Atravesar)
