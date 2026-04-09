@@ -27,7 +27,15 @@
     La distancia de salto de Kalista **NO** escala con velocidad de movimiento regular fuera de las botas.
     *   <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/1001.png" width="20"> Botas Tier 1 (25% extra distance)
     *   <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/3006.png" width="20"> Botas Tier 2 (Berserker / Steelcaps) = Máximo Salto Posible.
+
+    <div align="center">
+      <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'bar',data:{labels:['Sin%20Botas','Tier%201','Tier%202'],datasets:[{label:'Distancia%20(Unidades)',data:[250,312,375],backgroundColor:['%23FF3333','%23FF8833','%2333AA33']}]},options:{title:{display:true,text:'Escalado%20de%20Movimiento%20(Salto%20Pasivo)',fontColor:'white'},legend:{display:false},scales:{yAxes:[{ticks:{fontColor:'white',min:0}}],xAxes:[{ticks:{fontColor:'white'}}]}}}" width="400" style="border-radius: 8px;">
+    </div>
     *   **"El Cap de AS" (Attack Speed):** Al sobrepasar **1.80 a 2.0 de AS**, la animación de su salto *empieza a ser más lenta que su capacidad de atacar parada*. **Regla de Master+**: Si tienes mucho AS (por ejemplo con Lethal Tempo activo o Guinsoo cargado) y necesitas maximizar DPS puro al Barón o Tumbando Torre, **DEJA DE SALTAR** (A-Click estático en el sitio sin moverse). Saltar literalmente reducirá tu DPS un 20%.
+
+    <div align="center">
+      <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'line',data:{labels:['1.0%20AS','1.3%20AS','1.6%20AS','1.8%20AS','2.0%20AS','2.5%20AS'],datasets:[{label:'DPS%20Saltando',data:[100,130,160,180,180,150],borderColor:'%23FF3333',fill:false},{label:'DPS%20Estatico',data:[100,130,160,180,200,250],borderColor:'%2333CCFF',fill:false}]},options:{title:{display:true,text:'Eficiencia%20de%20DPS%20vs%20Attack%20Speed',fontColor:'white'},legend:{labels:{fontColor:'white'}},scales:{yAxes:[{ticks:{fontColor:'white'}}],xAxes:[{ticks:{fontColor:'white'}}]}}}" width="500" style="border-radius: 8px;">
+    </div>
 
 ### 1.2 Q (Pierce / Atravesar)
 *   **El "Por Qué":** Escala con un absurdo **105% de tu AD Total**. 
@@ -151,6 +159,11 @@ Kalista rompe los estándares de las builds comunes debido a su necesidad absolu
     </td>
   </tr>
 </table>
+
+<br>
+<div align="center">
+  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'line',data:{labels:['Lvl%201','Lvl%204','Lvl%206','Lvl%209','Lvl%2018'],datasets:[{label:'Runa:%20Vida%20Plana',data:[65,65,65,65,65],borderColor:'%23FF3333',fill:false,borderDash:[5,5]},{label:'Runa:%20Vida%20Progresiva',data:[10,30,65,100,180],borderColor:'%2333CCFF',fill:true,backgroundColor:'rgba(51,204,255,0.2)'}]},options:{title:{display:true,text:'Matematicas:%20Punto%20de%20Quiebre%20(Shards%20HP)',fontColor:'white'},legend:{labels:{fontColor:'white'}},scales:{yAxes:[{ticks:{fontColor:'white'}}],xAxes:[{ticks:{fontColor:'white'}}]}}}" width="600" style="border-radius: 8px;">
+</div>
 
 <br><br><br>
 <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2140_fighter_t1_vampiricscepter.png" width="60">
