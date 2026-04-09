@@ -47,50 +47,19 @@
 *   **Auto-Reset:** El casteo de (E) no detiene tus auto-ataques. Puedes lanzar (E) a mitad de vuelo y reseteará el frame.
 
 <br>
-<h3 align="center">📊 Gráfico 1: Escalado Rend vs Armor 📊</h3>
+<br>
+<h3 align="center">📊 Gráfico 1: Rend vs Armadura Base (Lvl 9) 📊</h3>
 <div align="center">
-  <code>Leyenda (Puntos HP Restante vs Stacks Lethal) | AD Base = 150</code>
-  <pre>
-[🛡️ SQUISHY - 40 Armor]    (ADC/Mages):  ▀ ▀ ▀ ▀ █ (4 Lanzas = Ejecución a ~450 HP)
-[🛡️ BRUISER - 100 Armor]   (Fighters):   ▀ ▀ ▀ ▀ ▀ ▀ ▀ █ (7 Lanzas = Ejecución a ~550 HP)
-[🛡️ TANK - 200+ Armor]     (Ornn/Sion):  ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ █ (12+ Lanzas = Ejecución a ~700 HP)
-  </pre>
+  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'horizontalBar',data:{labels:['SQUISHY (40 Armor)','BRUISER (100 Armor)','TANK (200 Armor)'],datasets:[{label:'Lanzas para Ejecucion',data:[4,7,12],backgroundColor:['%23FF3333','%23FF8833','%2333AA33']}]},options:{legend:{display:false},title:{display:true,text:'Lanzas Pactadas Para Lethal Execution',fontColor:'white'},scales:{yAxes:[{ticks:{fontColor:'white'}}],xAxes:[{ticks:{fontColor:'white'}}]}}}" width="600" style="border-radius: 8px;">
 </div>
 <br>
 
 <h3 align="center">📉 Gráfico 2: Cruz de Escalado DPS (BotRK vs Rend E) 📉</h3>
-<p align="center">El DPS de Kalista es una <b>"Estructura en X"</b>. La Hoja del Rey (BotRK) domina al inicio de la barra de vida, la (E) domina al final.</p>
-
+<p align="center">La Hoja del Rey domina al inicio de la pelea, Rend (E) domina al final.</p>
 <div align="center">
-  <table border="1">
-    <tr>
-      <th>Vida del Rival</th>
-      <th>BotRK (% Actual)</th>
-      <th>Poder Apilado (E)</th>
-    </tr>
-    <tr>
-      <td><code>[ 100% HP ] 🟩🟩🟩🟩🟩</code></td>
-      <td>█████████ (Máx)</td>
-      <td>▏ (Nulo)</td>
-    </tr>
-    <tr>
-      <td><code>[  75% HP ] 🟨🟨🟨🟨</code></td>
-      <td>██████ (Alto)</td>
-      <td>███ (Despertando)</td>
-    </tr>
-    <tr>
-      <td><code>[  50% HP ] 🟧🟧🟧</code></td>
-      <td>████ (Cae)</td>
-      <td>██████ (Peligro)</td>
-    </tr>
-    <tr>
-      <td><code>[  25% HP ] 🟥</code></td>
-      <td>█ (Irrelevante)</td>
-      <td>█████████ (<b>LETHAL EXECUTION</b>)</td>
-    </tr>
-  </table>
-  <p><i>Conclusión Táctica: Nunca detones la E antes de llegar a la zona naranja/roja.</i></p>
+  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'line',data:{labels:['100%25 HP','75%25 HP','50%25 HP','25%25 HP'],datasets:[{label:'BotRK DPS (Base)',data:[100,75,50,10],borderColor:'%23FF3333',fill:false},{label:'Rend (E) Stack Power',data:[0,20,60,150],borderColor:'%2333CCFF',fill:true,backgroundColor:'rgba(51,204,255,0.2)'}]},options:{legend:{labels:{fontColor:'white'}},title:{display:true,text:'Trading DPS X-Curve',fontColor:'white'},scales:{yAxes:[{ticks:{fontColor:'white'}}],xAxes:[{ticks:{fontColor:'white'}}]}}}" width="600" style="border-radius: 8px;">
 </div>
+<p align="center"><i>Conclusión Táctica: Nunca detones la E antes de llegar a la zona de Intersección Matemática.</i></p>
 
 *   **Poder de Smite Épico (Barón):** Con 40 lanzas (y la penetración de armor pasiva), puedes prever **2400-3000 Daño**, lo cual sobreescribe instantáneamente al <i>Smite</i> de cualquier jungla.
 
@@ -139,6 +108,11 @@ Kalista rompe los estándares de las builds comunes debido a su necesidad absolu
 <hr width="30%">
 <br>
 
+<div align="center">
+  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'doughnut',data:{labels:['Lethal Tempo (Core)','Press the Attack (Squishies)','Hail of Blades'],datasets:[{data:[85,12,3],backgroundColor:['%23E0C164','%23E84141','%23EAE1D5']}]},options:{legend:{labels:{fontColor:'white'},position:'right'},title:{display:true,text:'Keystone Meta Distribution (%)',fontColor:'white'},plugins:{doughnutlabel:{labels:[{text:'85%25',font:{size:20,color:'white'}},{text:'Lethal Tempo',font:{size:12,color:'%23E0C164'}}]}}}}" width="450" style="border-radius: 8px;">
+</div>
+<br>
+
 ### ⚔️ Árbol Principal (Keystones)
 *   **Lethal Tempo**: Mandatorio el 90% de partidas. Te permite cruzar el límite de 2.0 AS, pero **recuerda la regla de oro**: Si superas 2.0 AS, deja de saltar o perderás DPS.
 *   **Press the Attack (PTA)**: Usar solo si el draft rival tiene 4+ Squishies (Asesinos/Magos). PTA + Q + E es una ejecución semi-instantánea.
@@ -178,35 +152,10 @@ Kalista rompe los estándares de las builds comunes debido a su necesidad absolu
 <hr width="30%">
 <br>
 
-<p align="center">Análisis de volatilidad y capitalización de combate de Kalista según la franja temporal. Las "Velas" representan la eficacia porcentual contra hiper-carries.</p>
+<p align="center">Análisis de volatilidad y capitalización de combate de Kalista. Las barras representan la eficacia porcentual de tus spikes.</p>
 
 <div align="center">
-  <table border="1">
-    <tr>
-      <th>Plazo Temporal (Macro)</th>
-      <th>Tendencia Base</th>
-      <th>Volatilidad</th>
-      <th>Curva de Impacto (Candlestick Spike)</th>
-    </tr>
-    <tr>
-      <td align="center"><b>Early Game (0 - 15m)</b></td>
-      <td align="center">🐂 BULL (Alza Fuerte)</td>
-      <td align="center">🔴 Extrema (Requiere Dominio)</td>
-      <td><code>  ▄▆███▇▅▃ </code> <i>(Snowball obligatorio)</i></td>
-    </tr>
-    <tr>
-      <td align="center"><b>Mid Game (15 - 25m)</b></td>
-      <td align="center">⚖️ STABLE (Meseta)</td>
-      <td align="center">🟡 Media (Objectivos)</td>
-      <td><code> ▃▅▆▇██▆▄ </code> <i>(Pico de Barón a 40 stacks)</i></td>
-    </tr>
-    <tr>
-      <td align="center"><b>Late Game (25m+)</b></td>
-      <td align="center">🐻 BEAR (Caída Constante)</td>
-      <td align="center">🟢 Baja (Caída de Armor)</td>
-      <td><code>       ▂▄ </code> <i>(Dependes 100% Support)</i></td>
-    </tr>
-  </table>
+  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'radar',data:{labels:['Early Game (0-15m)','Mid Game (15-25m)','Late Game (25m+)'],datasets:[{label:'DPS Puro (Independencia)',data:[100,60,20],backgroundColor:'rgba(255,51,51,0.5)',borderColor:'%23FF3333'},{label:'Dependencia de Support (R)',data:[20,50,100],backgroundColor:'rgba(51,204,255,0.5)',borderColor:'%2333CCFF'}]},options:{scale:{ticks:{fontColor:'white',backdropColor:'transparent',max:100,min:0},pointLabels:{fontColor:'white',fontSize:14}},legend:{labels:{fontColor:'white'}},title:{display:true,text:'Capitalizacion de Combate y Volatilidad (%)',fontColor:'white'}}}" width="600" style="border-radius: 8px;">
 </div>
 <br>
 
