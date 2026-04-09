@@ -6,26 +6,14 @@
   <i>"El fin de tu trayecto... comienza ahora."</i>
 </div>
 
----
+<br><br>
+<img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/kalista_circle_0.png" width="60" style="border-radius: 50%;">
+<h2>🛡️ TACTICAL ARCHITECTURE & FRAME-DATA 🛡️</h2>
+<hr width="30%">
+<br>
 
-## 📖 Índice del Sistema (Wiki)
-1. **[Arquitectura de Habilidades & Matemáticas del Frame-Data](#1-arquitectura-de-habilidades--matemáticas-del-frame-data)**
-   - 1.1 Pasiva: Martial Poise (Salto) y Curva de Attack Speed
-   - 1.2 Q (Pierce): Transferencia de Rend
-   - 1.3 W (Sentinel): Control de Visión y Daño de Pacto
-   - 1.4 E (Rend): Thresholds de Ejecución y Matemáticas
-   - 1.5 R (Fate's Call): Geometría de Engage
-2. **[Itemización y Matemáticas (El "Por Qué")](#2-itemización-y-matemáticas-el-por-qué)**
-3. **[Runas Optimizadas (Parche 26.7)](#3-runas-optimizadas-parche-267)**
-4. **[Matriz de Oathsworn (Supports) Expandida](#4-matriz-de-oathsworn-supports-expandida)**
-5. **[Matriz de Matchups & Fase de Líneas](#5-matriz-de-matchups--fase-de-líneas)**
-
----
-
-## ⚙️ 1. Arquitectura de Habilidades & Matemáticas del Frame-Data
-
-### 1.1 Pasiva: Martial Poise (Elegancia Marcial)
-*La habilidad que define a Kalista. Si no entiendes el Frame-Data de la pasiva, no puedes jugarla.*
+### 🏃‍♂️ 1.1 Pasiva: Martial Poise (Elegancia Marcial)
+<p align="center"><i>La habilidad que define a Kalista. Si no dominas el Frame-Data, no la escojas en Ranked.</i></p>
 
 *   **Mecánica Base:** Tras emitir una orden de ataque básico, Kalista saltará hacia la dirección indicada en lugar de cancelar la animación. 
 *   **Parche 26.7 Importante:** Históricamente sus auto-ataques infligían un 90% de su AD. En parches modernos, **inflige 100% de su Daño de Ataque Total**, permitiéndole construir AD puro sin penalización y maximizar *Lifesteal*.
@@ -40,40 +28,50 @@
 *   **Táctica Oculta (Transferencia de Lanzas):** Si matas un objetivo con (Q), el proyectil atraviesa el cuerpo y traslada **TODAS las lanzas previas que tuviera ese objetivo al siguiente objetivo al que golpee**.
 *   *Setup de High Elo:* Llenas al minion tanque de lanzas (4-5 stacks). Cuando tenga poca vida -> Lanzas Q al enemigo atravesando al minion -> El enemigo recibe el golpe de la Q (105% AD) + Todas las lanzas del minion (daño altísimo con E instantáneo).
 
-### 1.3 W (Sentinel / Centinela)
-*   **Visión:** Mandas un espectro que hace un recorrido y vuelve. Grita si ve al jungla enemigo. Revela campeones ocultos en arbustos (True Sight).
-*   **Pacto de Daño (El por qué subes 1 punto a nivel 2 o 3):** Si el Support marcado ataca a un objetivo, Kalista aplica daño Mágico adicional equivalente al **14% - 18% de la Vida Máxima del enemigo** en su siguiente ataque. En fase de líneas esto es una bomba atómica encubierta. Tradea si el support pega.
+<br><br>
+<div align="center">
+  <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/spell/KalistaW.png" width="40" style="border-radius: 5px;">
+  <h3>1.3 W (Sentinel) - Pacto de Daño Oculto</h3>
+  <p>Si el Support ataca al objetivo, aplicas daño mágico adicional del <b>14-18% HP Máxima</b>.<br><i>Regla de Oro: En fase de líneas esto es una bomba atómica encubierta.</i></p>
+</div>
 
-### 1.4 E (Rend / Desgarrar) - Curvas de DPS & Gráficos de Ejecución
-*   **Mecánica de Farmeo (Mana Refund):** Si (E) mata *al menos 1 unidad*, te devuelve su coste de maná completo y reduce su enfriamiento a 0. Esto permite "farmear gratis" eternamente. Rinde a 2 minions bajos de vida con la misma E.
-*   **Auto-Reset:** El casteo de (E) no detiene tus auto-ataques. Puedes lanzar (E) literalmente a mitad de vuelo de un auto-ataque o tu `(Q)` en el aire y reseteará sin frenarte (Double trigger).
-
-#### 📊 Gráfico 1: Escalado de Daño Rend (E) vs Armadura del Rival (Lvl 9)
-En la fase media del juego, el número de lanzas necesarias para ejecutar varía drásticamente según la clase de armadura del objetivo. *(Base Matemática: AD Promedio = 150)*.
+<hr width="50%">
+<br><br>
 
 <div align="center">
-  <code>Leyenda de Ejecución (Puntos de HP Restante vs Stacks para Lethal)</code>
+  <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/spell/KalistaE.png" width="60" style="border-radius: 5px;">
+  <h2>📉 REND (E) - CURVAS DE DPS Y GRÁFICOS DE EJECUCIÓN 📉</h2>
+</div>
+
+*   **Mecánica de Farmeo (Mana Refund):** Si (E) mata *al menos 1 unidad*, te devuelve su coste de maná completo y reduce su enfriamiento a 0.
+*   **Auto-Reset:** El casteo de (E) no detiene tus auto-ataques. Puedes lanzar (E) a mitad de vuelo y reseteará el frame.
+
+<br>
+<h3 align="center">📊 Gráfico 1: Escalado Rend vs Armor 📊</h3>
+<div align="center">
+  <code>Leyenda (Puntos HP Restante vs Stacks Lethal) | AD Base = 150</code>
   <pre>
 [🛡️ SQUISHY - 40 Armor]    (ADC/Mages):  ▀ ▀ ▀ ▀ █ (4 Lanzas = Ejecución a ~450 HP)
 [🛡️ BRUISER - 100 Armor]   (Fighters):   ▀ ▀ ▀ ▀ ▀ ▀ ▀ █ (7 Lanzas = Ejecución a ~550 HP)
 [🛡️ TANK - 200+ Armor]     (Ornn/Sion):  ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ █ (12+ Lanzas = Ejecución a ~700 HP)
   </pre>
 </div>
+<br>
 
-#### 📉 Gráfico 2: Cruz de Escalado DPS (BotRK vs Rend E)
-El daño óptimo de Kalista es una **"Estructura en X"**. Al inicio del combate, la Hoja del Rey (BotRK) hace daño masivo porque el rival tiene la vida llena (Damage % Current HP). A medida que la vida del rival baja, el DPS del BotRK cae brutalmente, pero el daño apilado de tus Lanzas de Rend sube exponencialmente.
+<h3 align="center">📉 Gráfico 2: Cruz de Escalado DPS (BotRK vs Rend E) 📉</h3>
+<p align="center">El DPS de Kalista es una <b>"Estructura en X"</b>. La Hoja del Rey (BotRK) domina al inicio de la barra de vida, la (E) domina al final.</p>
 
 <div align="center">
   <table border="1">
     <tr>
-      <th>Fase del Combate (Vida del Rival)</th>
-      <th>Daño Auto-ataque (BotRK % Actual)</th>
-      <th>Poder Apilado de (Rend E)</th>
+      <th>Vida del Rival</th>
+      <th>BotRK (% Actual)</th>
+      <th>Poder Apilado (E)</th>
     </tr>
     <tr>
       <td><code>[ 100% HP ] 🟩🟩🟩🟩🟩</code></td>
-      <td>█████████ (Máximo)</td>
-      <td>▏ (Cero)</td>
+      <td>█████████ (Máx)</td>
+      <td>▏ (Nulo)</td>
     </tr>
     <tr>
       <td><code>[  75% HP ] 🟨🟨🟨🟨</code></td>
@@ -82,8 +80,8 @@ El daño óptimo de Kalista es una **"Estructura en X"**. Al inicio del combate,
     </tr>
     <tr>
       <td><code>[  50% HP ] 🟧🟧🟧</code></td>
-      <td>████ (Medio)</td>
-      <td>██████ (Zona Peligro)</td>
+      <td>████ (Cae)</td>
+      <td>██████ (Peligro)</td>
     </tr>
     <tr>
       <td><code>[  25% HP ] 🟥</code></td>
@@ -91,48 +89,66 @@ El daño óptimo de Kalista es una **"Estructura en X"**. Al inicio del combate,
       <td>█████████ (<b>LETHAL EXECUTION</b>)</td>
     </tr>
   </table>
-  <p><i>Conclusión Táctica: Nunca detones la E antes de llegar a la zona naranja/roja. Si lo haces antes, destruirás el cruce de escalado matemático.</i></p>
+  <p><i>Conclusión Táctica: Nunca detones la E antes de llegar a la zona naranja/roja.</i></p>
 </div>
 
-*   **Límites de Daño Épicos (Barón / Dragón):** El daño es acumulable en escala hasta matar a un dragón o al mismísimo barón. Al tener un scaling garantizado de tu AD por cada lanza extra, con 40 lanzas (y la penetración de armor pasiva), puedes prever entre **2400-3000 Puntos de Daño**, lo cual sobreescribe instantáneamente al *Smite / Aplastar* del jungla (que hace un máximo de 1200 a nivel 18). Eres la dueña absoluta del control de objetivos.
+*   **Poder de Smite Épico (Barón):** Con 40 lanzas (y la penetración de armor pasiva), puedes prever **2400-3000 Daño**, lo cual sobreescribe instantáneamente al <i>Smite</i> de cualquier jungla.
 
-### 1.5 R (Fate's Call / Llamada del Destino)
-*   Atrae al Support a Stasis absoluto (inmune). Ellos teclean click-derecho para lanzarse con un Knock-up AoE.
-*   **Rango Máximo de Tiro:** Pueden lanzarse hasta el límite de la red visible o a través de paredes medias (ej. Pits de Dragón).
-*   **El Rescate Extremo:** Puedes castearlo incluso si estás stuneado, pero puedes salvar al support si van a morir aplastados por la torre o por el Ignite (la Stasis limpia todo mal temporal).
+<br><hr width="50%"><br>
 
----
+<div align="center">
+  <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/spell/KalistaRx.png" width="40" style="border-radius: 5px;">
+  <h3>1.5 R (Fate's Call) - Stasis de Enganche</h3>
+  <p>Atrae al Support a Stasis absoluto. Salva a tu support del Ignite o divealo a rango máximo cruzando muros.</p>
+</div>
 
-## 🛠️ 2. Itemización y Matemáticas (El "Por Qué")
+<br><br>
+<img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3153_tank_t4_bladeoftheruinedking.png" width="60">
+<h2 align="center">🛠️ MATHEMATICAL ITEMIZATION (THE "WHY") 🛠️</h2>
+<hr width="30%">
+<br>
 
-Kalista rompe los estándares de las builds comunes debido a su necesidad absoluta de supervivencia y aplicación constante de On-Hit para stackear espadas de (E).
+Kalista rompe los estándares de las builds comunes debido a su necesidad absoluta de supervivencia y aplicación constante de On-Hit.
 
-### Build "Shredder" Táctico (Core Meta 26.7)
-1. <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/3006.png" width="16"> **Grebas de Berserker (Boots T2)**: `Compralas en Recall 1`. Siempre. ¿Por qué? Kalista no puede esquivar hooks (Nautilus, Thresh, Blitzcrank) si no salta largo. Las grebas completan tu rango de salto defensivo. El AD aquí es irrelevante sin las botas grandes.
-2. <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/3153.png" width="16"> **Hoja del Rey Arruinado (BotRK)**: Daño por `% Health Mínima`. Sinergia brutal, porque además roba velocidad de movimiento. Si combinas la pasiva del BotRK robando Movement Speed + la ralentización de tu (E) desgarrar, es matemáticamente imposible que un peleador sin Dash te alcance.
-3. <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/3124.png" width="16"> **Guinsoo's Rageblade**:
-    *   **¿Por qué?** Porque su Pasiva de "Ataque Fantasma" duplica los efectos On-Hit cada 3 auto-ataques. Esto incluye **agregar lanzas de Rend (E) EL DOBLE DE RÁPIDO**. En peleas donde necesitas stackear lanzas en el tanque rápidamente, esto acorta a la mitad el tiempo requerido para matarlo.
-4. <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/3302.png" width="16"> **Terminus**:
-    *   Daño Mágico, Daño Físico y te da progresiones masivas de Armadura (Armor) y Resistencia Mágica. Kalista vive en el filo de la navaja (corto rango), por lo que ganar Resistencias gratuitas al golpear te mantiene vivo contra Asesinos que logran hacerte gap-close.
+<div align="center">
+  <table width="80%">
+    <tr>
+      <td width="25%" align="center"><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/3006.png" width="35"><br><b>Grebas (T2)</b><br><kbd>Obligatorio Flash 1</kbd></td>
+      <td width="75%">Sin botas, no esquivas hooks. Completa el rango de salto.</td>
+    </tr>
+    <tr>
+      <td width="25%" align="center"><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/3153.png" width="35"><br><b>BotRK</b><br><kbd>Core</kbd></td>
+      <td width="75%">Robo de Speed + Slow de Rend (E) = Kiteó invencible.</td>
+    </tr>
+    <tr>
+      <td width="25%" align="center"><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/3124.png" width="35"><br><b>Guinsoo</b><br><kbd>Ataque Fantasma</kbd></td>
+      <td width="75%">Duplica efectos On-hit. Agrega lanzas E doblemente rápido.</td>
+    </tr>
+    <tr>
+      <td width="25%" align="center"><img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/item/3302.png" width="35"><br><b>Terminus</b><br><kbd>Armor Pivot</kbd></td>
+      <td width="75%">Corto rango implica comer daño. Las resistencias te mantienen viva.</td>
+    </tr>
+  </table>
+</div>
+<br>
 
-### Situacionales Importantes
-*   **Runaan's Hurricane (3085)**: La aplicación de los tornados es tratada como un ataque básico puro. **SI** que stackean lanzas de (E) en todos los targets golpeados. En combates encajonados en el río o la jungla profunda, te permite explotar a los 3 campeones a la redonda de un solo flash + E.
 
----
+<br><br>
+<img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/perks/styles/7200_precision.png" width="60">
+<h2 align="center">🔮 MICRO-SHARDS & RUNES (PATCH 26.7) 🔮</h2>
+<hr width="30%">
+<br>
 
-## 🔮 3. Análisis de Runas & Micro-Shards (Parche 26.7)
-
-### Árbol Principal (Keystones)
+### ⚔️ Árbol Principal (Keystones)
 *   **Lethal Tempo**: Mandatorio el 90% de partidas. Te permite cruzar el límite de 2.0 AS, pero **recuerda la regla de oro**: Si superas 2.0 AS, deja de saltar o perderás DPS.
 *   **Press the Attack (PTA)**: Usar solo si el draft rival tiene 4+ Squishies (Asesinos/Magos). PTA + Q + E es una ejecución semi-instantánea.
-*   **Secundarias (Obligatorias):**
-    *   *Triunfo*: Crucial en Kalista porque al tener rango bajo (525), vivirás en la zona de fuego cruzado.
-    *   *Coup de Grace* vs *Cut Down*: Activa `Cut Down` siempre si hay más de 1 tanque (>3000 HP). Se multiplica exponencialmente con el Rendeo (E) en tanques.
-*   **Árbol Secundario (Valor):**
-    *   *Condicionamiento + Sobrecrecimiento*: Transforma a Kalista en rango de "Bruiser" (Off-Tank) llegada la marca de los 12 minutos.
 
-### 🧬 INFOGRAFÍA DE MICRO-FRAGMENTOS (SHARDS)
-Kalista escala drásticamente distinto dependiendo de qué Micro-Runas le equipes, cruzando su punto de quiebre algorítmico exactamente a **Nivel 6**.
+### 🛡️ Árbol Secundario (Valor)
+*   **Condicionamiento + Sobrecrecimiento**: Transforma a Kalista en rango de "Bruiser" (Off-Tank) llegada la marca de los 12 minutos.
+
+<br>
+<h3 align="center">🧬 INFOGRAFÍA DE MICRO-FRAGMENTOS (SHARDS)</h3>
+<p align="center">Cruzan su punto de quiebre algorítmico exactamente a <b>Nivel 6</b>.</p>
 
 <table width="100%">
   <tr>
@@ -151,25 +167,54 @@ Kalista escala drásticamente distinto dependiendo de qué Micro-Runas le equipe
       <b><kbd>+65 HP vs HP PROGRESIVA</kbd></b><br><hr>
       <p><b>Punto de Quiebre (Lvl 6):</b><br>
       <img src="https://img.shields.io/badge/Matchup-Seguro-green.svg"> Usa HP Progresiva contra Matchups pasivos.<br>
-      <img src="https://img.shields.io/badge/Matchup-Letal-red.svg"> Usa los 65 HP planos contra Lucian/Draven o morirás al 'Ignite' inicial.</p>
+      <img src="https://img.shields.io/badge/Matchup-Letal-red.svg"> Usa los 65 HP planos contra Lucian/Draven.</p>
     </td>
   </tr>
 </table>
 
----
+<br><br><br>
+<img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2140_fighter_t1_vampiricscepter.png" width="60">
+<h2 align="center">📈 TRADING POWER SPIKES (CANDLESTICKS) 📈</h2>
+<hr width="30%">
+<br>
 
-### 📈 Curvas de Rendimiento (Trading Power Spikes)
-Análisis de volatilidad y capitalización de combate de Kalista según la franja temporal. Las "Velas" representan la eficacia porcentual esperada de su kit contra hiper-carries de Late Game (eg. Jinx/Vayne).
+<p align="center">Análisis de volatilidad y capitalización de combate de Kalista según la franja temporal. Las "Velas" representan la eficacia porcentual contra hiper-carries.</p>
 
-| Plazo Temporal (Macro) | Tendencia Base del Mercado | Volatilidad (Requisito E) | Curva de Impacto (Candlestick Spike) |
-| :---: | :---: | :---: | :--- |
-| **Early Game (0 - 15m)** | 🐂 BULL (Alza Fuerte) | 🔴 Extrema (Requiere Dominio) | `  ▄▆███▇▅▃ ` *(Snowball obligatorio. BotRK Rush)* |
-| **Mid Game (15 - 25m)** | ⚖️ STABLE (Meseta) | 🟡 Media (Objectivos) | ` ▃▅▆▇██▆▄ ` *(Pico de eficiencia con Barones a 40 stacks E)* |
-| **Late Game (25m+)** | 🐻 BEAR (Caída Constante) | 🟢 Baja (Caída de AS y Armor) | `       ▂▄ ` *(Dependes 100% de iniciación con tu Support y R)* |
+<div align="center">
+  <table border="1">
+    <tr>
+      <th>Plazo Temporal (Macro)</th>
+      <th>Tendencia Base</th>
+      <th>Volatilidad</th>
+      <th>Curva de Impacto (Candlestick Spike)</th>
+    </tr>
+    <tr>
+      <td align="center"><b>Early Game (0 - 15m)</b></td>
+      <td align="center">🐂 BULL (Alza Fuerte)</td>
+      <td align="center">🔴 Extrema (Requiere Dominio)</td>
+      <td><code>  ▄▆███▇▅▃ </code> <i>(Snowball obligatorio)</i></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Mid Game (15 - 25m)</b></td>
+      <td align="center">⚖️ STABLE (Meseta)</td>
+      <td align="center">🟡 Media (Objectivos)</td>
+      <td><code> ▃▅▆▇██▆▄ </code> <i>(Pico de Barón a 40 stacks)</i></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Late Game (25m+)</b></td>
+      <td align="center">🐻 BEAR (Caída Constante)</td>
+      <td align="center">🟢 Baja (Caída de Armor)</td>
+      <td><code>       ▂▄ </code> <i>(Dependes 100% Support)</i></td>
+    </tr>
+  </table>
+</div>
+<br>
 
----
-
-## 🤝 4. DATABASE DE OATHSWORN (SUPPORT INFOGRAPHIC)
+<br><br>
+<img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/kalista_circle_0.png" width="60">
+<h2 align="center">🤝 DATABASE OATHSWORN (SUPPORTS INFOGRAPHIC) 🤝</h2>
+<hr width="30%">
+<br>
 <p><i>Interfaz de Sinergia (Elige con cuidado a quién le lanzas la Spear)</i></p>
 
 <table width="100%">
@@ -231,10 +276,14 @@ Análisis de volatilidad y capitalización de combate de Kalista según la franj
 
 <br>
 
----
-
-## ⚔️ 5. Mercado de Matchups: Análisis Volátil (15 ADCs)
-<p><i>Terminal Activa: Haz clic para desplegar Trading Specs y Algoritmo de Build.</i></p>
+<br><br>
+<div align="center">
+  <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/kalista_circle_0.png" width="60">
+  <h2>⚔️ MATCHUP MATRIX (15 ADCs VOLATILITY) ⚔️</h2>
+  <hr width="30%">
+  <p><i>Trading Specs Volatility Array</i></p>
+</div>
+<br>
 
 <table width="100%">
   <tr>
