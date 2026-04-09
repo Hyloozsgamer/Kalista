@@ -50,14 +50,14 @@
 <br>
 <h3 align="center">📊 Gráfico 1: Rend vs Armadura Base (Lvl 9) 📊</h3>
 <div align="center">
-  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'horizontalBar',data:{labels:['SQUISHY (40 Armor)','BRUISER (100 Armor)','TANK (200 Armor)'],datasets:[{label:'Lanzas para Ejecucion',data:[4,7,12],backgroundColor:['%23FF3333','%23FF8833','%2333AA33']}]},options:{legend:{display:false},title:{display:true,text:'Lanzas Pactadas Para Lethal Execution',fontColor:'white'},scales:{yAxes:[{ticks:{fontColor:'white'}}],xAxes:[{ticks:{fontColor:'white'}}]}}}" width="600" style="border-radius: 8px;">
+  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'horizontalBar',data:{labels:['SQUISHY%20(40%20Armor)','BRUISER%20(100%20Armor)','TANK%20(200%20Armor)'],datasets:[{label:'Lanzas%20Pactadas',data:[4,7,12],backgroundColor:['%23FF3333','%23FF8833','%2333AA33']}]},options:{legend:{display:false},title:{display:true,text:'Lanzas%20Para%20Lethal%20Execution',fontColor:'white'},scales:{yAxes:[{ticks:{fontColor:'white'}}],xAxes:[{ticks:{fontColor:'white'}}]}}}" width="600" style="border-radius: 8px;">
 </div>
 <br>
 
 <h3 align="center">📉 Gráfico 2: Cruz de Escalado DPS (BotRK vs Rend E) 📉</h3>
 <p align="center">La Hoja del Rey domina al inicio de la pelea, Rend (E) domina al final.</p>
 <div align="center">
-  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'line',data:{labels:['100%25 HP','75%25 HP','50%25 HP','25%25 HP'],datasets:[{label:'BotRK DPS (Base)',data:[100,75,50,10],borderColor:'%23FF3333',fill:false},{label:'Rend (E) Stack Power',data:[0,20,60,150],borderColor:'%2333CCFF',fill:true,backgroundColor:'rgba(51,204,255,0.2)'}]},options:{legend:{labels:{fontColor:'white'}},title:{display:true,text:'Trading DPS X-Curve',fontColor:'white'},scales:{yAxes:[{ticks:{fontColor:'white'}}],xAxes:[{ticks:{fontColor:'white'}}]}}}" width="600" style="border-radius: 8px;">
+  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'line',data:{labels:['100%25%20HP','75%25%20HP','50%25%20HP','25%25%20HP'],datasets:[{label:'BotRK%20DPS%20(Base)',data:[100,75,50,10],borderColor:'%23FF3333',fill:false},{label:'Rend%20(E)%20Stack%20Power',data:[0,20,60,150],borderColor:'%2333CCFF',fill:true,backgroundColor:'rgba(51,204,255,0.2)'}]},options:{legend:{labels:{fontColor:'white'}},title:{display:true,text:'Trading%20DPS%20X-Curve',fontColor:'white'},scales:{yAxes:[{ticks:{fontColor:'white'}}],xAxes:[{ticks:{fontColor:'white'}}]}}}" width="600" style="border-radius: 8px;">
 </div>
 <p align="center"><i>Conclusión Táctica: Nunca detones la E antes de llegar a la zona de Intersección Matemática.</i></p>
 
@@ -109,7 +109,7 @@ Kalista rompe los estándares de las builds comunes debido a su necesidad absolu
 <br>
 
 <div align="center">
-  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'doughnut',data:{labels:['Lethal Tempo (Core)','Press the Attack (Squishies)','Hail of Blades'],datasets:[{data:[85,12,3],backgroundColor:['%23E0C164','%23E84141','%23EAE1D5']}]},options:{legend:{labels:{fontColor:'white'},position:'right'},title:{display:true,text:'Keystone Meta Distribution (%)',fontColor:'white'},plugins:{doughnutlabel:{labels:[{text:'85%25',font:{size:20,color:'white'}},{text:'Lethal Tempo',font:{size:12,color:'%23E0C164'}}]}}}}" width="450" style="border-radius: 8px;">
+  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'doughnut',data:{labels:['Lethal%20Tempo%20(Core)','Press%20the%20Attack%20(Pky)','Hail%20of%20Blades'],datasets:[{data:[85,12,3],backgroundColor:['%23E0C164','%23E84141','%23EAE1D5']}]},options:{legend:{labels:{fontColor:'white'},position:'right'},title:{display:true,text:'Keystone%20Meta%20Distribution%20(%)',fontColor:'white'},plugins:{doughnutlabel:{labels:[{text:'85%25',font:{size:20,color:'white'}},{text:'Lethal%20Tempo',font:{size:12,color:'%23E0C164'}}]}}}}" width="450" style="border-radius: 8px;">
 </div>
 <br>
 
@@ -155,7 +155,7 @@ Kalista rompe los estándares de las builds comunes debido a su necesidad absolu
 <p align="center">Análisis de volatilidad y capitalización de combate de Kalista. Las barras representan la eficacia porcentual de tus spikes.</p>
 
 <div align="center">
-  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'radar',data:{labels:['Early Game (0-15m)','Mid Game (15-25m)','Late Game (25m+)'],datasets:[{label:'DPS Puro (Independencia)',data:[100,60,20],backgroundColor:'rgba(255,51,51,0.5)',borderColor:'%23FF3333'},{label:'Dependencia de Support (R)',data:[20,50,100],backgroundColor:'rgba(51,204,255,0.5)',borderColor:'%2333CCFF'}]},options:{scale:{ticks:{fontColor:'white',backdropColor:'transparent',max:100,min:0},pointLabels:{fontColor:'white',fontSize:14}},legend:{labels:{fontColor:'white'}},title:{display:true,text:'Capitalizacion de Combate y Volatilidad (%)',fontColor:'white'}}}" width="600" style="border-radius: 8px;">
+  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'radar',data:{labels:['Early%20Game%20(0-15m)','Mid%20Game%20(15-25m)','Late%20Game%20(25m+)'],datasets:[{label:'DPS%20Puro%20(Independencia)',data:[100,60,20],backgroundColor:'rgba(255,51,51,0.5)',borderColor:'%23FF3333'},{label:'Dependencia%20de%20Support%20(R)',data:[20,50,100],backgroundColor:'rgba(51,204,255,0.5)',borderColor:'%2333CCFF'}]},options:{scale:{ticks:{fontColor:'white',backdropColor:'transparent',max:100,min:0},pointLabels:{fontColor:'white',fontSize:14}},legend:{labels:{fontColor:'white'}},title:{display:true,text:'Capitalizacion%20de%20Combate%20(%)',fontColor:'white'}}}" width="600" style="border-radius: 8px;">
 </div>
 <br>
 
