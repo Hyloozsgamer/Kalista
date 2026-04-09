@@ -12,6 +12,12 @@
 <hr width="30%">
 <br>
 
+<div align="center">
+  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'line',data:{labels:[1,3,6,9,12,15,18],datasets:[{label:'Base%20AD%20(Daño)',data:[61,68,81,95,110,126,145],borderColor:'%23FF8833',fill:false},{label:'Base%20HP%20(Vida)',data:[600,800,1100,1400,1800,2200,2600],borderColor:'%2333AA33',fill:false,yAxisID:'B'}]},options:{title:{display:true,text:'Character%20Base%20Scaling%20(AD%20vs%20HP)',fontColor:'white'},legend:{labels:{fontColor:'white'}},scales:{xAxes:[{ticks:{fontColor:'white'}}],yAxes:[{id:'A',type:'linear',position:'left',ticks:{fontColor:'white'}},{id:'B',type:'linear',position:'right',ticks:{fontColor:'white'}}]}}}" width="600" style="border-radius: 8px;">
+  <p><i>Escala de Stat-Check: Tras el Parche 26.7 el AD Base aplica al 100%.</i></p>
+</div>
+<br>
+
 ### 🏃‍♂️ 1.1 Pasiva: Martial Poise (Elegancia Marcial)
 <p align="center"><i>La habilidad que define a Kalista. Si no dominas el Frame-Data, no la escojas en Ranked.</i></p>
 
@@ -317,6 +323,13 @@ Kalista rompe los estándares de las builds comunes debido a su necesidad absolu
     </td>
   </tr>
 </table>
+
+<br><br>
+<div align="center">
+  <img src="https://quickchart.io/chart?bkg=1A1A1A&c={type:'horizontalBar',data:{labels:['vs%20Ashe','vs%20Draven','vs%20Vayne','vs%20Caitlyn','vs%20Samira'],datasets:[{label:'Short%20Trade%20Power',data:[20,40,80,30,50],backgroundColor:'rgba(51,204,255,0.7)'},{label:'All-In%20Lethal%20Pressure',data:[90,30,100,80,40],backgroundColor:'rgba(255,51,51,0.7)'}]},options:{title:{display:true,text:'Trade%20vs%20All-In%20(%25%20de%20Exito%20Global)',fontColor:'white'},legend:{labels:{fontColor:'white'}},scales:{xAxes:[{ticks:{fontColor:'white',min:0,max:100}}],yAxes:[{ticks:{fontColor:'white'}}]}}}" width="600" style="border-radius: 8px;">
+  <p><i>Métricas de Oportunidad Secuencial: "All-in o Trade".</i></p>
+</div>
+<br>
 
 <div align="center">
   <br>
