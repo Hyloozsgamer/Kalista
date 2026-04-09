@@ -7,7 +7,7 @@
 </div>
 
 <br><br>
-<img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/kalista_circle_0.png" width="60" style="border-radius: 50%;">
+<img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Kalista.png" width="60" style="border-radius: 50%;">
 <h2>🛡️ TACTICAL ARCHITECTURE & FRAME-DATA 🛡️</h2>
 <hr width="30%">
 <br>
@@ -179,7 +179,7 @@ Kalista rompe los estándares de las builds comunes debido a su necesidad absolu
 <br>
 
 <br><br>
-<img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/kalista_circle_0.png" width="60">
+<img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Kalista.png" width="60">
 <h2 align="center">🤝 DATABASE OATHSWORN (SUPPORTS INFOGRAPHIC) 🤝</h2>
 <hr width="30%">
 <br>
@@ -246,7 +246,7 @@ Kalista rompe los estándares de las builds comunes debido a su necesidad absolu
 
 <br><br>
 <div align="center">
-  <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/kalista_circle_0.png" width="60">
+  <img src="https://ddragon.leagueoflegends.com/cdn/14.5.1/img/champion/Kalista.png" width="60">
   <h2>⚔️ MATCHUP MATRIX (15 ADCs VOLATILITY) ⚔️</h2>
   <hr width="30%">
   <p><i>Trading Specs Volatility Array</i></p>
